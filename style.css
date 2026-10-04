@@ -148,3 +148,46 @@ body {
   padding: 15px 0;
   font-size: 13px;
 }
+
+/* Tablet: 768px and up */
+@media (min-width: 768px) {
+  .hero { padding: 50px 0; }
+  .hero-title { font-size: 34px; }
+  .hero-text  { font-size: 18px; }
+
+  .section-title { font-size: 26px; }
+  .thumb { height: 130px; }
+  .project-card .card-title { font-size: 18px; }
+  .project-card .card-text  { font-size: 15px; }
+
+  .sidebar { padding: 25px; }
+  .sidebar-name { font-size: 22px; }
+  .sidebar-role,
+  .sidebar-bio,
+  .contact-list li { font-size: 15px; }
+
+  .site-footer { font-size: 15px; padding: 20px 0; }
+
+  .hide-mobile { display: block; }
+}
+
+/*Desktop: 992px and up */
+@media (min-width: 992px) {
+  .hero { padding: 70px 0; }
+  .hero-title { font-size: 46px; }
+  .hero-text  { font-size: 22px; }
+
+  .section-title { font-size: 32px; }
+  .thumb { height: 140px; }
+  .project-card .card-title { font-size: 19px; }
+
+  .sidebar {
+    position: sticky;
+    top: 20px;
+    padding: 30px;
+  }
+  .sidebar-name { font-size: 24px; }
+  .avatar { width: 100px; height: 100px; font-size: 34px; }
+
+  .site-footer { font-size: 16px; padding: 25px 0; }
+}
