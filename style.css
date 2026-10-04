@@ -116,3 +116,35 @@ body {
 .project-card:hover { transform: translateY(-4px); }
 .project-card .card-title { font-size: 16px; }
 .project-card .card-text  { font-size: 13px; }
+
+.sidebar {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: #4b6cb7;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-name { font-size: 18px; }
+.sidebar-role,
+.sidebar-bio,
+.contact-list li { font-size: 13px; }
+.contact-list li { padding: 3px 0; }
+
+.site-footer {
+  background: #182848;
+  padding: 15px 0;
+  font-size: 13px;
+}

@@ -167,12 +167,34 @@
         </div>
       </section>
 
-      <!-- SIDEBAR -->
+      <!-- RIGHT: sidebar -->
+      <aside class="col-12 col-lg-4">
+        <div class="sidebar" id="about">
+          <div class="avatar">YN</div>
+          <h3 class="sidebar-name">Tleubay Abilmansur</h3>
+          <p class="sidebar-role">Student, Astana IT University</p>
+          <p class="sidebar-bio hide-mobile">I study web development.</p>
+          <hr>
+          <div id="contact">
+            <h4 class="fs-6">Contact</h4>
+            <ul class="list-unstyled contact-list">
+              <li>Email: abilmansur@gmail.com</li>
+              <li>Phone: +7 777 777 77 77</li>
+              <li>City: Astana, Kazakhstan</li>
+              <li>GitHub: github.com/pParalich</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
 
     </div>
   </main>
 
-  <!-- FOOTER -->
+  <footer class="site-footer text-center text-white">
+    <div class="container">
+      <p class="mb-0">&copy; 2026. All rights reserved.</p>
+    </div>
+  </footer>
 </section>
 
 
