@@ -8,6 +8,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- task 0 -->
+<section class="task t0">
+  <div class="container">
+    <span class="task-label">Task 0. Responsive Typography</span>
+    <h1>Responsive Typography</h1>
+    <h2>Why it matters</h2>
+    <p>Text should be comfortable to read on every device. Smaller font on mobile, medium on tablet, larger on desktop.</p>
+    <h2>How it works</h2>
+    <p>CSS media queries change the font size of headings and paragraphs when the screen width crosses a breakpoint.</p>
+  </div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
