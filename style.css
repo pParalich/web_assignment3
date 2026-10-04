@@ -41,3 +41,33 @@ body {
   .t0 h2 { font-size: 34px; }
   .t0 p  { font-size: 22px; }
 }
+
+/* task 1 */
+.t1-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.t1-box {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.t1-box:nth-child(1) { background: #e74c3c; }
+.t1-box:nth-child(2) { background: #3498db; }
+.t1-box:nth-child(3) { background: #2ecc71; }
+
+@media (min-width: 768px) {
+  .t1-box { width: calc(50% - 7.5px); }
+}
+
+@media (min-width: 992px) {
+  .t1-box { width: calc(33.333% - 10px); }
+}

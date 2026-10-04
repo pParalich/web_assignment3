@@ -19,6 +19,17 @@
     <p>CSS media queries change the font size of headings and paragraphs when the screen width crosses a breakpoint.</p>
   </div>
 </section>
+<!-- task 1 -->
+<section class="task">
+  <div class="container">
+    <span class="task-label">Task 1. Layout with Media Queries (no Bootstrap classes)</span>
+    <div class="t1-wrapper">
+      <div class="t1-box">Box 1</div>
+      <div class="t1-box">Box 2</div>
+      <div class="t1-box">Box 3</div>
+    </div>
+  </div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
