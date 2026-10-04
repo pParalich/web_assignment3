@@ -30,6 +30,18 @@
     </div>
   </div>
 </section>
+<!-- task 2 -->
+<section class="task">
+  <div class="container">
+    <span class="task-label">Task 2. Bootstrap Responsive Columns</span>
+    <div class="row g-3">
+      <div class="col-12 col-md-6 col-lg-4"><div class="col-box bg-danger">Column 1</div></div>
+      <div class="col-12 col-md-6 col-lg-4"><div class="col-box bg-primary">Column 2</div></div>
+      <div class="col-12 col-md-6 col-lg-4"><div class="col-box bg-success">Column 3</div></div>
+    </div>
+  </div>
+</section>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

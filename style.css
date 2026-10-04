@@ -71,3 +71,12 @@ body {
 @media (min-width: 992px) {
   .t1-box { width: calc(33.333% - 10px); }
 }
+
+/* task 2 */
+.col-box {
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 8px;
+}
