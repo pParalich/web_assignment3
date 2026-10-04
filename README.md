@@ -2,7 +2,7 @@
 
 **Name:** Tleubay Abilmansur
 **Group:** SE 2540
-
+**Website:** https://pparalich.github.io/web_assignment3/
 ---
 
 ## Part 1. Media Queries
@@ -32,6 +32,10 @@ Logo on the left, links on the right, hamburger menu on smaller screens.
 Header with Bootstrap navbar; main section with projects (left) and sidebar (right); footer. Custom media queries for font sizes, spacing and element visibility.
 
 ![task 4](screenshots/image4.png)
+
+### Website On Mobile
+
+![task 5](screenshots/image5.png)
 
 ## Summary of my work process
 I used a mobile-first approach: base styles are for phones, and `min-width` media queries (768px and 992px) add styles for tablets and desktops. These breakpoints match Bootstrap's `md` and `lg`, so my CSS and the grid work together.
