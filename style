@@ -24,3 +24,20 @@ body {
   display: inline-block;
   margin-bottom: 15px;
 }
+
+/* task 0 */
+.t0 h1 { font-size: 24px; }
+.t0 h2 { font-size: 20px; }
+.t0 p  { font-size: 14px; }
+
+@media (min-width: 768px) {
+  .t0 h1 { font-size: 34px; }
+  .t0 h2 { font-size: 26px; }
+  .t0 p  { font-size: 18px; }
+}
+
+@media (min-width: 992px) {
+  .t0 h1 { font-size: 48px; }
+  .t0 h2 { font-size: 34px; }
+  .t0 p  { font-size: 22px; }
+}
