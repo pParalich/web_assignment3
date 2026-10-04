@@ -1,0 +1,26 @@
+/* Breakpoints: mobile < 768px, tablet 768-991px, desktop >= 992px */
+
+/*general*/
+body {
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+.task {
+  padding: 30px 0;
+  border-bottom: 4px solid #182848;
+}
+
+.task-last {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.task-label {
+  background: #182848;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
